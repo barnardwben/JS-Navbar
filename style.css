@@ -23,12 +23,29 @@
   height: 5px;
   margin: 0.5rem;
   background: #4ad4bdb4;
-  transition: all .3s ease-in-out;
+  transition: all 1.5s ease-in-out;
+}
+
+.change .bar1{
+  transform: rotate(-2205deg) translate(-10px, 10px);
+}
+.change .bar2{
+  opacity: 0;
+}
+.change .bar3{
+  transform: rotate(2205deg) translate(-7.5px, -8.5px);
 }
 
 .navbar__links{
   list-style-type: none;
-  transition: all .3s ease-in-out;
+  transition: all .7s ease-in-out;
+  /*  */
+  height: 0;
+  overflow: hidden;
+}
+
+.navbar__collapse {
+  height: 235px;
 }
 
 .navbar__single-link{
